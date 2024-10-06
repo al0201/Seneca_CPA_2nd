@@ -1,0 +1,125 @@
+sft summary
+
+https://chatgpt.com/share/e0deb296-630f-4e03-ad9c-dc46b36fcd6f
+
+https://chatgpt.com/share/5a88e78c-c52c-4707-9cd2-6fcf8227a4e0
+
+
+
+Software Development Life Cycle (SDLC) (7-SDLC.pdf)
+Slide 1: Software Development Life Cycle (SDLC)
+
+Historical context, emergence of software engineering.
+Slide 2: SDLC Phases
+
+Planning, Analysis, Design, Implementation, Testing and Integration, Maintenance.
+Slide 3: Waterfall Model
+
+Slide 4: Iterative Model
+
+Slide 5: Agile Models
+
+Quick response to changes, overlapping phases, and continuous improvement.
+Slide 6: Testing in the SDLC
+
+Testing during requirements, design, implementation, delivery, and maintenance.
+Slide 7: Incremental Development
+
+Core system built first, components added and tested incrementally.
+Slide 8: Continuous Integration
+
+Working software in a repository, regular testing and integration.
+Slide 9: Test Driven Development
+
+Writing tests before code, collaboration between test team and developers, integrated with continuous integration.
+Slide 10: Software Testing Life Cycle (STLC)
+
+Guide for testing process, defining project expectations, time constraints, ensuring requirements are met.
+Slide 11: STLC Phases
+
+Requirements Analysis, Test Planning, Test Case Development, Test Environment Setup, Test Execution, Test Cycle Closure.
+Slide 12: Requirements Traceability Matrix
+
+Other Debugging Tools (6-other-debugging.pdf)
+Slide 1: Log Files
+
+Text and values recorded during execution, useful for distributed programs, production systems, and long-term monitoring.
+Slide 2: Log4c
+
+Custom logging system with Error, Warning, and Info severity levels, filtering, enabling/disabling, and auto-flushing.
+Slide 3: Log4c Functions
+
+Open, close, write messages with severity, formatted messages, enable/disable, and set/get filter levels.
+Slide 4: Assertions
+
+Included in production systems to halt program on critical errors, assert(condition) stops program if condition fails.
+Slide 5: Lint
+
+Program checking code for errors, clues for debugging, available for many languages, example: CPPcheck for Windows.
+Slide 6: Core Dumps
+
+Older technique, memory copy written to file, laborious to analyze, but automatic dump readers exist.
+Slide 7: Conditional Compilation
+
+Enable/disable debugging code with preprocessor directives for efficiency.
+Slide 8: Debug and Release Builds
+
+Debug builds check errors but slow, release builds are faster with less error checking.
+Slide 9: Debugging Other Languages
+
+Differences in compiled vs interpreted, and strongly vs weakly typed languages affect testing/debugging approach.
+Slide 10: Compiled vs. Interpreted
+
+Compiled detects issues before running, interpreted detects issues line by line during execution.
+Slide 11: Strongly vs. Weakly Typed
+
+Strongly typed checks assignments and calls at compile time, weakly typed allows any type and errors appear during execution.
+
+Visual Studio Debugging (5-vs-debugger.pdf)
+문제: Visual Studio Debugger의 주요 기능들을 나열하고 각 기능의 역할을 설명하시오.
+
+정답 예시: Breakpoints, Conditional breakpoints, Stepping, Stack trace, Variable display, Variable watch.
+문제: Breakpoints가 설정된 라인에서 코드 실행이 일시 정지될 때 할 수 있는 작업들을 설명하시오.
+
+정답 예시: 변수 상태를 검사하고, 창 상단의 실행 제어를 사용하여 프로그램을 단계별로 진행할 수 있다.
+문제: Watches 기능의 사용법과 장점을 설명하시오.
+
+정답 예시: 특정 변수를 관찰할 수 있으며, 변수 이름을 창에 입력하거나 코드에서 변수 이름을 오른쪽 클릭하여 "Add watch"를 선택할 수 있다.
+문제: Breakpoint Pane에서 사용할 수 있는 기능들을 설명하시오.
+
+정답 예시: Breakpoints 목록을 보여주며, Breakpoints를 일시적으로 비활성화하거나 삭제할 수 있다.
+문제: Action Macros의 역할을 설명하고, 각 매크로($CALLER, $CALLSTACK, $FILEPOS, $FUNCTION, $TICK)의 기능을 설명하시오.
+
+정답 예시: 함수 호출자, 호출 스택, 현재 파일 및 라인, 함수 이름, 컴퓨터 시작 후 경과 시간을 표시하는 메시지 생성.
+Software Development Life Cycle (7-SDLC.pdf)
+문제: SDLC의 주요 단계를 나열하고 각 단계의 역할을 설명하시오.
+
+정답 예시: 계획, 분석, 설계, 구현, 테스트 및 통합, 유지 보수.
+문제: Agile 모델의 주요 특징과 장점을 설명하시오.
+
+정답 예시: 빠른 변화 대응, 요구 사항 변경의 수용, 동시 다발적인 단계 진행, 문제 발견 시 즉시 수정 가능.
+문제: Incremental Development와 Continuous Integration의 차이점을 설명하시오.
+
+정답 예시: Incremental Development는 핵심 시스템을 먼저 구축하고 추가 구성 요소를 점진적으로 통합하며, Continuous Integration은 기능 추가나 버그 수정을 위해 작업한 소프트웨어를 지속적으로 저장소에 통합하여 버그가 없는 상태를 유지.
+문제: Test Driven Development(TDD)의 과정과 장점을 설명하시오.
+
+정답 예시: 테스트를 먼저 작성하고 그 테스트를 통과할 수 있도록 코드를 작성함. 개발자에게 예측 가능한 결과를 제공하고, Continuous Integration과 통합 가능.
+문제: STLC의 주요 단계를 나열하고 각 단계의 역할을 설명하시오.
+
+정답 예시: 요구 사항 분석, 테스트 계획 수립, 테스트 케이스 개발, 테스트 환경 설정, 테스트 실행, 테스트 사이클 종료.
+Other Debugging Tools (6-other-debugging.pdf)
+문제: Log Files의 장점을 설명하고, 이를 사용하는 경우의 예를 제시하시오.
+
+정답 예시: 프로그램 실행 중 정보 수집 가능, 프로그래머가 직접 개입하지 않아도 됨, 장기간 정보 수집 가능, 특정 오류 조건 발생 시 정보 수집 가능, 분산 프로그램에 유용.
+문제: Log4c의 주요 기능과 세 가지 로그 심각도 수준을 설명하시오.
+
+정답 예시: Error, Warning, Info 수준의 로그 기록, 필터링, 활성화/비활성화, 자동 플러시.
+문제: Assertions의 역할과 사용법을 설명하시오.
+
+정답 예시: 프로그램에서 심각한 오류 발생 시 실행 중지, assert(논리 조건) 형태로 사용, 조건이 충족되지 않으면 assert 발동.
+문제: Conditional Compilation의 장점을 설명하고, 예시 코드를 제시하시오.
+
+정답 예시: 런타임 조건 검사보다 효율적, #define DEBUG ... #ifdef DEBUG ... #endif 형태로 사용.
+문제: Strongly Typed 언어와 Weakly Typed 언어의 차이점을 설명하시오.
+
+정답 예시: Strongly Typed 언어는 모든 할당과 함수 호출 시 타입을 검사하여 컴파일 시 오류를 탐지, Weakly Typed 언어는 변수와 매개변수가 모든 타입을 허용하여 실행 시 오류를 탐지.

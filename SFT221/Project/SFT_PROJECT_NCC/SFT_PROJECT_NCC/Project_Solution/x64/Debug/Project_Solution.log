@@ -1,0 +1,17 @@
+﻿  main.c
+  mapping.c
+  Truck.c
+C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\Project_Solution\main.c(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\Project_Solution\main.c(1,1):
+  '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  
+C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\Project_Solution\mapping.c(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\Project_Solution\mapping.c(1,1):
+  '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  
+C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\Project_Solution\Truck.c(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\Project_Solution\Truck.c(1,1):
+  '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  
+  Generating Code...
+  Project_Solution.vcxproj -> C:\2. SFT221\Project\SFT_PROJECT_NCC\SFT_PROJECT_NCC\x64\Debug\Project_Solution.exe
