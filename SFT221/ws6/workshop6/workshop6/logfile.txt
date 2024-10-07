@@ -1,3 +1,0 @@
-[INFO Sat Jun 15 00:21:01 2024]: Number of Lines: 3
-[INFO Sat Jun 15 00:21:01 2024]: Number of Words: 14
-[INFO Sat Jun 15 00:21:01 2024]: Number of Numbers: 2

@@ -1,5 +1,0 @@
-﻿  WS1.c
-C:\2. SFT221\ws1\Workshop1\Workshop1\WS1.c(14,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\2. SFT221\ws1\Workshop1\Workshop1\WS1.c(29,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\2. SFT221\ws1\Workshop1\Workshop1\WS1.c(29,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Workshop1.vcxproj -> C:\2. SFT221\ws1\Workshop1\x64\Debug\Workshop1.exe
