@@ -1,0 +1,30 @@
+/* Workshop 4 - Reflection
+Name : Ahram Lee
+Email : alee239@myseneca.ca
+Student ID : 133849232
+Date: 2024-05-31 */
+
+1. Most useful technique for finding bugs:
+The most useful technique was using a debugger to step through the code and observe the program's behavior at each line. This allowed for identifying where the logic was failing, particularly in the recursive factorial function and the structure passing issue in computeFactorials.
+
+
+2. Answers to the research questions:
+a. Largest integer and double values:
+The largest integer value in C is typically 2147483647 (for int type on a 32-bit system).
+The largest double value is approximately 1.7976931348623157e+308.
+
+b. Limit on maximum value in a variable:
+The limit is due to the fixed number of bits used to store the value. For example, a 32-bit integer uses 31 bits for the value and 1 bit for the sign.
+
+c. Exceeding the maximum integer value:
+If an integer exceeds its maximum value, it causes an overflow, leading to wrap-around (negative values in signed integers due to two's complement representation).
+
+d. Storage format for floating-point vs. integer:
+Floating-point numbers use IEEE 754 format, consisting of a sign bit, exponent, and significand.
+Integers are stored as binary numbers using two's complement for signed integers.
+Default stack and heap memory in Visual Studio:
+
+
+3. The default stack size is 1 MB, and the default heap size is 1 GB.
+If limits are hit, increasing the memory allocated can help, but this depends on whether the memory usage pattern is more stack or heap intensive.
+Limits exist to prevent programs from using excessive memory and to manage system resources efficiently.

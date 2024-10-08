@@ -1,0 +1,12 @@
+Workshop 6 - Reflection
+Name : Ahram Lee
+Email : alee239@myseneca.ca
+Student ID : 133849232
+Date: 2024-06-15
+
+
+1. I found more bugs using assertions. Assertions work better in this context because they immediately highlight where the program deviates from expected behavior. Log files provide a detailed history, which is useful, but assertions provide a direct method to catch errors as they occur. Using both methods in tandem is ideal, as log files can help trace the steps leading up to the assertion failure.
+
+2. I prefer using the debugger for interactive debugging sessions because it allows for step-by-step execution and immediate inspection of variable states. However, log files are invaluable for understanding the flow of a program over time, especially in environments where a debugger is not available (e.g., production systems). In such cases, while debugging might be slower with log files, it would still be effective with proper logging practices. The speed would likely be slower compared to using an interactive debugger due to the iterative process of adding logs and re-running the program.
+
+3. I gained confidence through thorough testing, including edge cases and typical use cases, combined with assertions to catch anomalies and extensive logging to track the program flow. While no testing method guarantees finding all bugs, combining multiple strategies (unit tests, assertions, log analysis) increases confidence. To feel comfortable betting that I found all the bugs, I would perform peer code reviews, automated testing, and possibly static code analysis to catch issues that manual testing might miss.
