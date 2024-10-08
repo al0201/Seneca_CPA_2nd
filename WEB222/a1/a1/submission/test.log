@@ -1,0 +1,45 @@
+
+> web222-assignment-1@6.0.0 test
+> jest --
+
+jest-haste-map: Haste module naming collision: web222-assignment-1
+  The following files share their name; please adjust your hasteImpl:
+    * <rootDir>\package.json
+    * <rootDir>\submission\package.json
+
+PASS src/problem-05.test.js
+PASS src/problem-00.test.js
+PASS src/problem-07.test.js
+PASS src/problem-04.test.js
+PASS src/problem-08.test.js
+PASS src/problem-06.test.js
+PASS src/problem-02.test.js
+PASS src/problem-01.test.js
+FAIL src/problem-03.test.js
+  ● Problem 3 - parseDateString() function › thrown error uses a proper Error object and message
+
+    expect(received).toThrow(expected)
+
+    Expected message: "invalid date string, expected a `YYYY/MM/DD` or `DD/MM/YYYY` formatted string"
+    Received message: "Invalid input: expected a string in `YYYY/MM/DD` or `DD/MM/YYYY` format."
+
+          277 | function parseDateString(value) {
+          278 |   if (typeof value !== 'string') {
+        > 279 |     throw new Error('Invalid input: expected a string in `YYYY/MM/DD` or `DD/MM/YYYY` format.');
+              |           ^
+          280 |   }
+          281 |
+          282 |   const dateFormats = [
+
+      at parseDateString (src/solutions.js:279:11)
+      at parseDateString (src/problem-03.test.js:34:18)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (src/problem-03.test.js:34:37)
+      at Object.toThrow (src/problem-03.test.js:34:37)
+
+Test Suites: 1 failed, 8 passed, 9 total
+Tests:       1 failed, 64 passed, 65 total
+Snapshots:   0 total
+Time:        0.883 s, estimated 1 s
+Ran all test suites.

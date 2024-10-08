@@ -1,0 +1,18 @@
+WEB222
+
+java script
+html
+CSS
+
+
+npm test problem-00
+
+
+let words = name.split("-")
+  let rc = ""
+  for(let i = 0; i<words.length;i++) {
+    if(words[i] != "") {
+      rc += words[i]
+    }
+  }
+  return rc

@@ -1,0 +1,32 @@
+document.addEventListener('DOMContentLoaded', function() {
+  // Change the page title to include your name
+  document.title = 'WEB222 Test 4 – Summer, 2024 - Ahram Lee';
+  
+  // Change the text of the paragraph with id 'third-para' to a hyperlink and set its class to your student number
+  let thirdPara = document.getElementById('third-para');
+  thirdPara.innerHTML = '<a href="https://www.youtube.com/@TaylorSwift">My Favourite Artist</a>';
+  thirdPara.className = '133849232';  
+  
+  // Add event listener to the "Start" button
+  let startButton = document.querySelector('.btn-start');
+  startButton.addEventListener('click', function() {
+    // Create a new section element with text and append it to the main element
+    let newSection = document.createElement('section');
+    newSection.textContent = 'The start button was clicked!';
+    document.querySelector('main').appendChild(newSection);
+  });
+  
+  // Function to update the h1 text with the number of section elements inside the main element
+  function updateH1Text() {
+    let h1 = document.querySelector('h1');
+    let main = document.querySelector('main');
+    let sectionCount = main.getElementsByTagName('section').length;
+    h1.textContent = `There are ${sectionCount} section elements inside main`;
+    
+    // Set another timeout to run this function again in 3.5 seconds
+    setTimeout(updateH1Text, 3500);
+  }
+  
+  // Set the initial timeout to run the updateH1Text function in 2.5 seconds
+  setTimeout(updateH1Text, 2500);
+});
